@@ -1,0 +1,36 @@
+pytest is automation framework
+
+should start with test
+eg:def test_launach()
+execuion order
+markings of testcaes
+assertions
+parmeterization
+support fixtures
+parllel execution
+test report geneartion
+
+
+
+dependencies/Installations->
+pip install selenium
+pip install webdriver-manager
+pip install pytest
+
+
+
+
+pytest commands
+
+pytest test_Sample.py
+pytest -v -s test_Sample.py
+
+pytest -v -s -m smoke
+
+
+report
+pip install pytest-html-reporter
+To install ordering
+pip install pytest-order
+for parallel executuion
+pip install pytest-xdist
